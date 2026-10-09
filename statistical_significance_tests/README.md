@@ -58,7 +58,7 @@ $$
 leaving $N'$ non-zero pairs. Define
 
 $$
-W^{+} = \sum_{\Delta_i > 0} \mathrm{Rank}\!\left(|\Delta_i|\right),
+W^{+} = \sum_{\Delta_i > 0} \mathrm{Rank}\left(|\Delta_i|\right),
 \qquad
 \mu_W = \frac{N'(N'+1)}{4},
 \qquad
