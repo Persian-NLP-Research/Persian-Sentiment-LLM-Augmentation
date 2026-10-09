@@ -74,7 +74,7 @@ are computed recursively:
 $$
 p_{(k)}^{\text{adj}} =
 \max\left(
-  \min\left(1, \, (m - k + 1)\, p_{(k)}\right)
+  \min\left(1 \, (m - k + 1)\, p_{(k)}\right)
   \, p_{(k-1)}^{\text{adj}}
 \right),
 \qquad
