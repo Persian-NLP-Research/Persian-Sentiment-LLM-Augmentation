@@ -20,7 +20,7 @@ Evaluating generative data augmentation across multiple architectural families i
    With a moderate sample size ($N = 9$), asymptotic normality cannot be assumed a priori. We explicitly perform the **Shapiro-Wilk test** on the paired differences $\Delta_i$. While the decision rule formally defers to the **Wilcoxon signed-rank test** whenever normality is violated ($\alpha < 0.05$) and the **paired Student's $t$-test** otherwise, we report both tests alongside standardized effect sizes (Cohen's $d_z$ and Wilcoxon $r$) to guarantee full empirical transparency.
 
 - **Family-Wise Error Rate (FWER) Control via Step-Down Holm-Bonferroni:**  
-   Simultaneously evaluating multiple classification metrics (Accuracy, Weighted-F1, Macro-F1) across task regimes (Binary vs. 5-Class) induces a severe risk of Type I error inflation ($\alpha$-multiplicity). Rather than employing standard Bonferroni correction—which is overly conservative and inflates Type II errors—we adopt the **Holm-Bonferroni step-down procedure** with enforced monotonicity. This rigorously controls the Family-Wise Error Rate (FWER $\le 0.05$) while preserving statistical power to detect genuine task-dependent performance gains.
+   Simultaneously evaluating multiple classification metrics (Accuracy, Weighted-F1, Macro-F1) across task regimes (Binary vs. 5-Class) induces a severe risk of Type I error inflation ($\alpha$-multiplicity). Rather than employing standard Bonferroni correction, which is overly conservative and inflates Type II errors, we adopt the **Holm-Bonferroni step-down procedure** with enforced monotonicity. This rigorously controls the Family-Wise Error Rate (FWER $\le 0.05$) while preserving statistical power to detect genuine task-dependent performance gains.
 
 
 ---
