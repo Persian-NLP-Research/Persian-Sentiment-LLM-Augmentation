@@ -1,6 +1,6 @@
 # Statistical Significance & Hypothesis Testing Protocol
 
-This document details the paired statistical hypothesis testing protocol used to evaluate the performance impact of LLM-based synthetic data augmentation (**Translation** vs. **Translation + 1646**) across nine diverse Transformer architectures for both 5-class and binary Persian sentiment analysis.
+This document details the paired statistical hypothesis testing protocol used to evaluate the performance impact of LLM-based synthetic data augmentation across nine diverse Transformer architectures for both 5-class and binary Persian sentiment analysis.
 
 ---
 
