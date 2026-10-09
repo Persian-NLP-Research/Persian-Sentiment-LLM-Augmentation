@@ -13,7 +13,7 @@ In empirical NLP research, simple mean comparisons across architectures can be c
 
 Evaluating generative data augmentation across multiple architectural families introduces specific statistical considerations that govern our methodological choices:
 
-1. **Paired Design Across Identical Architectures ($N = 9$):**  
+**Paired Design Across Identical Architectures ($N = 9$):**  
    Because both baseline and augmented models are trained and evaluated across the exact same set of $9$ transformer-based architectures under controlled random seeds, performance observations are inherently dependent. A **paired testing paradigm** is statistically mandatory to account for inter-model variance, isolating the true marginal effect of generative augmentation ($\Delta_i = y_i^{\text{aug}} - y_i^{\text{base}}$) rather than inter-architecture capacity differences.
 
 2. **Normality Verification & Dual Reporting (Parametric vs. Non-Parametric):**  
