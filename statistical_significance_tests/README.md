@@ -33,7 +33,7 @@ Evaluating generative data augmentation across multiple architectural families i
 For each metric, we test whether the paired differences
 
 $$
-\Delta_i = y_i^{\text{aug}} - y_i^{\text{base}}, \qquad i = 1, \dots, N, \; N = 9
+\Delta_i = y_i^{\text{aug}} - y_i^{\text{base}}, \qquad i = 1, \dots, N,
 $$
 
 follow a normal distribution using the **Shapiro-Wilk test** at $\alpha = 0.05$.
