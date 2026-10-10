@@ -131,4 +131,34 @@ statistical_significance_tests/
 - **`requirements.txt`** : pinned list of Python dependencies
   (`numpy`, `pandas`, `scipy`).
 
+
+### 3.2 Prerequisites
+
+The code is written in **Python** and relies only on the standard scientific
+stack. No GPU, no external services, and no proprietary libraries are required.
+
+**Dependencies:**
+
+| Package  | Role in this project                                |
+|----------|-----------------------------------------------------|
+| `numpy`  | Numerical arrays and vectorized operations          |
+| `pandas` | Tabular assembly and export of the results          |
+| `scipy`  | Statistical tests (`shapiro`, `ttest_rel`, `norm`)  |
+
+**Recommended versions (tested):**
+
+The analysis was developed and tested with the following versions:
+
+```
+numpy   >= 1.24
+pandas  >= 2.0
+scipy   >= 1.11
+```
+
+These are **recommended**, not strict requirements. The APIs used in this
+project (`scipy.stats.shapiro`, `scipy.stats.ttest_rel`, `scipy.stats.rankdata`,
+`scipy.stats.norm`, and the standard `numpy` / `pandas` routines) have been
+stable for many years, so **older versions, down to roughly
+`numpy 1.17`, `pandas 1.0`, and `scipy 1.4`, are also expected to work**.
+Newer versions are likewise expected to work without modification.
   
