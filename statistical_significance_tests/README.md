@@ -119,11 +119,11 @@ statistical_significance_tests/
   the values of your own experiment and run the script.
 
 - **The five notebooks** :
-  [`OriginalVsOriginal1000.ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Original_vs_Original(%2B1000).ipynb),
-  [`OriginalVsOriginal1146.ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Original_vs_Original(%2B1146).ipynb),
-  [`OriginalVsOriginal1646.ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Original_vs_Original(%2B1646).ipynb),
-  [`BalancedVsBalanced1646.ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Balanced_vs_Balanced(%2B1646).ipynb), and
-  [`TranslationVsTranslation1646.ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Translation_vs_Translation(%2B1646).ipynb).
+  [`Original_Vs_Original(+1000).ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Original_vs_Original(%2B1000).ipynb),
+  [`Original_Vs_Original(+1146).ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Original_vs_Original(%2B1146).ipynb),
+  [`Original_Vs_Original(+1646).ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Original_vs_Original(%2B1646).ipynb),
+  [`Balanced_Vs_Balanced(+1646).ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Balanced_vs_Balanced(%2B1646).ipynb), and
+  [`Translation_Vs_Translation(+1646).ipynb`](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Translation_vs_Translation(%2B1646).ipynb).
   Each corresponds to one experimental scenario. They share **identical
   statistical logic** and differ **only in the input data**. Each notebook is designed to be **copied and pasted directly
   into Google Colab**.
