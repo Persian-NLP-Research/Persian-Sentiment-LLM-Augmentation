@@ -98,6 +98,37 @@ for $k = 1, \dots, m$.
 
 ## 3. How to Run
 
-### Install Dependencies
-```bash
-pip install numpy scipy pandas
+### 3.1 Repository Layout
+
+```
+statistical_significance_tests/
+├── README.md                                         # This Document!
+├── requirements.txt
+├── statistical_significance.py                       # Generic, reusable statistical script (Python)
+├── Original_vs_Original(+1000).ipynb                 
+├── Original_vs_Original(+1146).ipynb                 
+├── Original_vs_Original(+1646).ipynb                 
+├── Balanced_vs_Balanced(+1646).ipynb                 
+└── Translation_vs_Translation(+1646).ipynb          
+```
+
+- **`statistical_significance.py`** : The generic implementation of all statistical procedures
+  (Shapiro-Wilk normality test, paired Student's *t*-test, Wilcoxon signed-rank
+  test, Cohen's *d*<sub>z</sub>, effect size *r*, and the Holm-Bonferroni
+  step-down correction). To reuse it, simply replace the `DATA` dictionary with
+  the values of your own experiment and run the script.
+
+- **The five notebooks** :
+  [`OriginalVsOriginal1000.ipynb`](OriginalVsOriginal1000.ipynb),
+  [`OriginalVsOriginal1146.ipynb`](OriginalVsOriginal1146.ipynb),
+  [`OriginalVsOriginal1646.ipynb`](OriginalVsOriginal1646.ipynb),
+  [`BalancedVsBalanced1646.ipynb`](BalancedVsBalanced1646.ipynb), and
+  [`TranslationVsTranslation1646.ipynb`](TranslationVsTranslation1646.ipynb).
+  Each corresponds to one experimental scenario. They share **identical
+  statistical logic** and differ **only in the input data**. Each notebook is designed to be **copied and pasted directly
+  into Google Colab**.
+
+- **`requirements.txt`** : pinned list of Python dependencies
+  (`numpy`, `pandas`, `scipy`).
+
+  
