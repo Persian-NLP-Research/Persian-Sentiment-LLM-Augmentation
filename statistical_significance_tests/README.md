@@ -119,7 +119,7 @@ statistical_significance_tests/
   the values of your own experiment and run the script.
 
 - **The five notebooks** :
-  [`OriginalVsOriginal1000.ipynb`](OriginalVsOriginal1000.ipynb),
+  [`OriginalVsOriginal1000.ipynb`]([OriginalVsOriginal1000.ipynb](https://github.com/Persian-NLP-Research/Persian-Sentiment-LLM-Augmentation/blob/main/statistical_significance_tests/Original_vs_Original(%2B1000).ipynb)),
   [`OriginalVsOriginal1146.ipynb`](OriginalVsOriginal1146.ipynb),
   [`OriginalVsOriginal1646.ipynb`](OriginalVsOriginal1646.ipynb),
   [`BalancedVsBalanced1646.ipynb`](BalancedVsBalanced1646.ipynb), and
