@@ -102,7 +102,7 @@ for $k = 1, \dots, m$.
 
 ```
 statistical_significance_tests/
-├── README.md                                         # This Document!
+├── README.md                                         # This Document
 ├── requirements.txt
 ├── statistical_significance.py                       # Generic, reusable statistical script (Python)
 ├── Original_vs_Original(+1000).ipynb                 
@@ -184,7 +184,7 @@ experimental scenario.
    - compute paired Student's *t*-test and Wilcoxon signed-rank statistics,
    - apply the Holm-Bonferroni correction,
    - print the results table,
-   - save `comprehensive_significance_report_<scenario>.csv`,
+   - save `comprehensive_significance_report.csv`,
    - trigger a browser download of the CSV via `google.colab.files.download`.
 
 No installation is required. Colab already provides compatible versions of
