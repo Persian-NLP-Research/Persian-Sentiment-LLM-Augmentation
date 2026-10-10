@@ -161,4 +161,64 @@ project (`scipy.stats.shapiro`, `scipy.stats.ttest_rel`, `scipy.stats.rankdata`,
 stable for many years, so **older versions, down to roughly
 `numpy 1.17`, `pandas 1.0`, and `scipy 1.4`, are also expected to work**.
 Newer versions are likewise expected to work without modification.
+
+
+
+### 3.3 Option A: Run in Google Colab
+
+All five scenario notebooks are designed to run **directly in Google Colab**
+without any setup. Each notebook contains the same statistical pipeline and
+differs only in the input data dictionary (`DATA`), which corresponds to one
+experimental scenario.
+
+**Steps:**
+
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Click **File → Upload notebook** and select one of the
+   `*.ipynb` files (e.g. `TranslationVsTranslation1646.ipynb`) to see its results.
+3. (Optional) Edit the `DATA` dictionary if your experiment uses different
+   values.
+4. Click **Runtime → Run all**.
+5. The notebook will:
+   - run the Shapiro-Wilk normality audit,
+   - compute paired Student's *t*-test and Wilcoxon signed-rank statistics,
+   - apply the Holm-Bonferroni correction,
+   - print the results table,
+   - save `comprehensive_significance_report_<scenario>.csv`,
+   - trigger a browser download of the CSV via `google.colab.files.download`.
+
+No installation is required. Colab already provides compatible versions of
+`numpy`, `pandas`, and `scipy`.
+
+
+### 3.4 Option B: Run Locally with `statistical_significance.py`
+
+The file `statistical_significance.py` contains the generic version of the pipeline. It shares
+the same logic as the notebooks but is **not tied to any specific scenario**.
+You simply replace the `DATA` dictionary with the values of your own
+experiment.
+
+**Steps:**
+
+1. Clone the repository and move into the project folder.
+2. Install the dependencies (see Section 3.2).
+3. Open `statistical_significance.py` and replace the `DATA` dictionary with your own values.
+   The structure is:
+   ```python
+   DATA = {
+       ("<Task>", "<Metric>"): {
+           "Baseline":  [...],   # N paired values
+           "Augmented": [...],   # N paired values
+       },
+       ...
+   }
+   ```
+4. Run the script:
+   ```bash
+   python statistical_significance.py
+   ```
+5. The script produces:
+   - a human-readable table printed to standard output,
+   - `comprehensive_significance_report.csv` saved in the working directory.
+
   
