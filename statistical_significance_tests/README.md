@@ -175,7 +175,7 @@ experimental scenario.
 
 1. Open [Google Colab](https://colab.research.google.com/).
 2. Click **File → Upload notebook** and select one of the
-   `*.ipynb` files (e.g. `TranslationVsTranslation1646.ipynb`) to see its results.
+   `*.ipynb` files (e.g. `Translation_Vs_Translation(+1646).ipynb`) to see its results.
 3. (Optional) Edit the `DATA` dictionary if your experiment uses different
    values.
 4. Click **Runtime → Run all**.
