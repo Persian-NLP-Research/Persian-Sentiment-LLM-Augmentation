@@ -124,7 +124,7 @@ def run_quality_audit(file_path: str, text_col: Union[str, int] = 0) -> dict:
     return results
 
 if __name__ == "__main__":
-    # Detect Google Colab environment
+    
     try:
         import google.colab  # noqa: F401
         IN_COLAB = True
@@ -149,7 +149,6 @@ if __name__ == "__main__":
     args, unknown = parser.parse_known_args()
     selected_file = args.file
 
-    # In Colab, if no file is given, prompt the user to upload one
     if not selected_file and IN_COLAB:
         print("Please upload your CSV file:")
         from google.colab import files
@@ -157,7 +156,6 @@ if __name__ == "__main__":
         if uploaded:
             selected_file = list(uploaded.keys())[0]
 
-    # Otherwise, ask the user interactively
     if not selected_file:
         selected_file = input("Enter path to your CSV file: ").strip()
 
