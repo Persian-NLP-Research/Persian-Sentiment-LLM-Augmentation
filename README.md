@@ -62,3 +62,8 @@ The experiments use the following pretrained models, all available on Hugging Fa
 | GTE-Reranker | [`Alibaba-NLP/gte-multilingual-reranker-base`](https://huggingface.co/Alibaba-NLP/gte-multilingual-reranker-base) |
 
 ## Authors
+
+- **Saeed Ziadid** — Department of Computer Science, Faculty of Mathematical Sciences, Yazd University, Yazd, Yazd, Iran · [pziadid@gmail.com] ·
+- **Mahdieh Hasheminezhad** *(corresponding author)* — Department of Computer Science, Faculty of Mathematical Sciences, Yazd University, Yazd, Yazd, Iran · [hasheminezhad@yazd.ac.ir] . [Homepage](https://yazd.ac.ir/people/hasheminezhad).
+- **Seyed Abolghasem Mirroshandel** — Department of Computer Engineering, Faculty of Engineering, University of Guilan, Rasht, Guilan, Iran · [mirroshandel@guilan.ac.ir] . [Homepage](https://nlp.guilan.ac.ir/en/mirroshandel).
+- **Arash Yousefi** — Department of Computer Engineering, Faculty of Engineering, University of Guilan, Rasht, Guilan, Iran · [arash.r400@gmail.com].
