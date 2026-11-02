@@ -86,4 +86,5 @@ Each file must contain **two columns**: `text` (the review) and `label`
   `bs = 32` configurations were excluded to fit within memory limits.
 - **Reproducibility.** A fixed seed (`SEED = 42` by default) is set at the
   beginning of each notebook. Note that the seed may be adjusted in individual
-  notebooks depending on the experiment.
+  notebooks depending on the experiment. For complete reproducibility and transparency regarding our training setup, the complete            hyperparameter search grids, selected learning rates, chosen batch sizes, and seed configurations across all evaluated tasks, models,      and datasets are documented in [`experimental_configurations.csv`](experimental_configurations.csv).
+
