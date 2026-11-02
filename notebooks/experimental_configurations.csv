@@ -1,0 +1,433 @@
+﻿Task,Model,Dataset,Seed,"Search Grid (lr, bs)",Selected lr,Selected bs
+Five-Class,ParsBERT,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,ParsBERT,Original,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,ParsBERT,Original,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,ParsBERT,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Five-Class,ParsBERT,Balanced,123,Fixed from Seed 42,2.00E-05,8
+Five-Class,ParsBERT,Balanced,2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,ParsBERT,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Five-Class,ParsBERT,Translation,123,Fixed from Seed 42,3.00E-05,16
+Five-Class,ParsBERT,Translation,2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,ParsBERT,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,ParsBERT,Original(+1000),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,ParsBERT,Original(+1000),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,ParsBERT,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,ParsBERT,Original(+1146),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,ParsBERT,Original(+1146),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,ParsBERT,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Five-Class,ParsBERT,Original(+1646),123,Fixed from Seed 42,2.00E-05,8
+Five-Class,ParsBERT,Original(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,ParsBERT,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,ParsBERT,Balanced(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,ParsBERT,Balanced(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,ParsBERT,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Five-Class,ParsBERT,Translation(+1646),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,ParsBERT,Translation(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,ParsBERT v2.0,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Five-Class,ParsBERT v2.0,Original,123,Fixed from Seed 42,2.00E-05,8
+Five-Class,ParsBERT v2.0,Original,2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,ParsBERT v2.0,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Five-Class,ParsBERT v2.0,Balanced,123,Fixed from Seed 42,2.00E-05,8
+Five-Class,ParsBERT v2.0,Balanced,2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,ParsBERT v2.0,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,ParsBERT v2.0,Translation,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,ParsBERT v2.0,Translation,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,ParsBERT v2.0,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,ParsBERT v2.0,Original(+1000),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,ParsBERT v2.0,Original(+1000),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,ParsBERT v2.0,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Five-Class,ParsBERT v2.0,Original(+1146),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,ParsBERT v2.0,Original(+1146),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,ParsBERT v2.0,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Five-Class,ParsBERT v2.0,Original(+1646),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,ParsBERT v2.0,Original(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,ParsBERT v2.0,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,32
+Five-Class,ParsBERT v2.0,Balanced(+1646),123,Fixed from Seed 42,2.00E-05,32
+Five-Class,ParsBERT v2.0,Balanced(+1646),2026,Fixed from Seed 42,2.00E-05,32
+Five-Class,ParsBERT v2.0,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,ParsBERT v2.0,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,ParsBERT v2.0,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,RoBERTa-fa,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,RoBERTa-fa,Original,123,Fixed from Seed 42,5.00E-05,32
+Five-Class,RoBERTa-fa,Original,2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,RoBERTa-fa,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Five-Class,RoBERTa-fa,Balanced,123,Fixed from Seed 42,3.00E-05,16
+Five-Class,RoBERTa-fa,Balanced,2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,RoBERTa-fa,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Five-Class,RoBERTa-fa,Translation,123,Fixed from Seed 42,2.00E-05,8
+Five-Class,RoBERTa-fa,Translation,2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,RoBERTa-fa,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Five-Class,RoBERTa-fa,Original(+1000),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,RoBERTa-fa,Original(+1000),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,RoBERTa-fa,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,RoBERTa-fa,Original(+1146),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,RoBERTa-fa,Original(+1146),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,RoBERTa-fa,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Five-Class,RoBERTa-fa,Original(+1646),123,Fixed from Seed 42,2.00E-05,8
+Five-Class,RoBERTa-fa,Original(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,RoBERTa-fa,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,RoBERTa-fa,Balanced(+1646),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,RoBERTa-fa,Balanced(+1646),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,RoBERTa-fa,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,RoBERTa-fa,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,RoBERTa-fa,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Five-Class,DistilBERT-fa,Original,123,Fixed from Seed 42,2.00E-05,8
+Five-Class,DistilBERT-fa,Original,2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,DistilBERT-fa,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,DistilBERT-fa,Balanced,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Balanced,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,DistilBERT-fa,Translation,123,Fixed from Seed 42,5.00E-05,32
+Five-Class,DistilBERT-fa,Translation,2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,DistilBERT-fa,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,DistilBERT-fa,Original(+1000),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Original(+1000),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,DistilBERT-fa,Original(+1146),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,DistilBERT-fa,Original(+1146),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,DistilBERT-fa,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,DistilBERT-fa,Original(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Original(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,DistilBERT-fa,Balanced(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Balanced(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,DistilBERT-fa,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,DistilBERT-fa,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,AlBERT-fa,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,AlBERT-fa,Original,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,AlBERT-fa,Original,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,AlBERT-fa,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Five-Class,AlBERT-fa,Balanced,123,Fixed from Seed 42,2.00E-05,8
+Five-Class,AlBERT-fa,Balanced,2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,AlBERT-fa,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,AlBERT-fa,Translation,123,Fixed from Seed 42,5.00E-05,32
+Five-Class,AlBERT-fa,Translation,2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,AlBERT-fa,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,AlBERT-fa,Original(+1000),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,AlBERT-fa,Original(+1000),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,AlBERT-fa,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,AlBERT-fa,Original(+1146),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,AlBERT-fa,Original(+1146),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,AlBERT-fa,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,AlBERT-fa,Original(+1646),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,AlBERT-fa,Original(+1646),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,AlBERT-fa,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Five-Class,AlBERT-fa,Balanced(+1646),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,AlBERT-fa,Balanced(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,AlBERT-fa,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,AlBERT-fa,Translation(+1646),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,AlBERT-fa,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,E5-Small,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,E5-Small,Original,123,Fixed from Seed 42,5.00E-05,32
+Five-Class,E5-Small,Original,2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,E5-Small,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,E5-Small,Balanced,123,Fixed from Seed 42,5.00E-05,32
+Five-Class,E5-Small,Balanced,2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,E5-Small,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,E5-Small,Translation,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Translation,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Five-Class,E5-Small,Original(+1000),123,Fixed from Seed 42,5.00E-05,32
+Five-Class,E5-Small,Original(+1000),2026,Fixed from Seed 42,5.00E-05,32
+Five-Class,E5-Small,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,E5-Small,Original(+1146),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Original(+1146),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,E5-Small,Original(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Original(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,E5-Small,Balanced(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Balanced(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Five-Class,E5-Small,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-Small,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-General,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Five-Class,E5-General,Original,123,Fixed from Seed 42,2.00E-05,8
+Five-Class,E5-General,Original,2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,E5-General,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Five-Class,E5-General,Balanced,123,Fixed from Seed 42,3.00E-05,16
+Five-Class,E5-General,Balanced,2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,E5-General,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Five-Class,E5-General,Translation,123,Fixed from Seed 42,3.00E-05,16
+Five-Class,E5-General,Translation,2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,E5-General,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Five-Class,E5-General,Original(+1000),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,E5-General,Original(+1000),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,E5-General,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Five-Class,E5-General,Original(+1146),123,Fixed from Seed 42,2.00E-05,8
+Five-Class,E5-General,Original(+1146),2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,E5-General,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Five-Class,E5-General,Original(+1646),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,E5-General,Original(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,E5-General,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,E5-General,Balanced(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-General,Balanced(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,E5-General,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Five-Class,E5-General,Translation(+1646),123,Fixed from Seed 42,2.00E-05,8
+Five-Class,E5-General,Translation(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Five-Class,GTE,Original,123,Fixed from Seed 42,3.00E-05,16
+Five-Class,GTE,Original,2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,GTE,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Five-Class,GTE,Balanced,123,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE,Balanced,2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE,Translation,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE,Translation,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Five-Class,GTE,Original(+1000),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,GTE,Original(+1000),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,GTE,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Five-Class,GTE,Original(+1146),123,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE,Original(+1146),2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE,Original(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE,Original(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE,Balanced(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE,Balanced(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE-Reranker,Original,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Original,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE-Reranker,Balanced,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Balanced,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE-Reranker,Translation,123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Translation,2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Five-Class,GTE-Reranker,Original(+1000),123,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE-Reranker,Original(+1000),2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE-Reranker,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE-Reranker,Original(+1146),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Original(+1146),2026,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Five-Class,GTE-Reranker,Original(+1646),123,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE-Reranker,Original(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Five-Class,GTE-Reranker,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Five-Class,GTE-Reranker,Balanced(+1646),123,Fixed from Seed 42,3.00E-05,16
+Five-Class,GTE-Reranker,Balanced(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Five-Class,GTE-Reranker,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Five-Class,GTE-Reranker,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Five-Class,GTE-Reranker,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Binary,ParsBERT,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,ParsBERT,Original,123,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT,Original,2026,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,ParsBERT,Balanced,123,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT,Balanced,2026,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,ParsBERT,Translation,123,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT,Translation,2026,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,ParsBERT,Original(+1000),123,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT,Original(+1000),2026,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,16
+Binary,ParsBERT,Original(+1146),123,Fixed from Seed 42,2.00E-05,16
+Binary,ParsBERT,Original(+1146),2026,Fixed from Seed 42,2.00E-05,16
+Binary,ParsBERT,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,ParsBERT,Original(+1646),123,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT,Original(+1646),2026,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Binary,ParsBERT,Balanced(+1646),123,Fixed from Seed 42,3.00E-05,16
+Binary,ParsBERT,Balanced(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Binary,ParsBERT,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,ParsBERT,Translation(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT,Translation(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT v2.0,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,ParsBERT v2.0,Original,123,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT v2.0,Original,2026,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT v2.0,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Binary,ParsBERT v2.0,Balanced,123,Fixed from Seed 42,5.00E-05,16
+Binary,ParsBERT v2.0,Balanced,2026,Fixed from Seed 42,5.00E-05,16
+Binary,ParsBERT v2.0,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,ParsBERT v2.0,Translation,123,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT v2.0,Translation,2026,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT v2.0,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,ParsBERT v2.0,Original(+1000),123,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT v2.0,Original(+1000),2026,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT v2.0,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,ParsBERT v2.0,Original(+1146),123,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT v2.0,Original(+1146),2026,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT v2.0,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,ParsBERT v2.0,Original(+1646),123,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT v2.0,Original(+1646),2026,Fixed from Seed 42,5.00E-05,32
+Binary,ParsBERT v2.0,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,ParsBERT v2.0,Balanced(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT v2.0,Balanced(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,ParsBERT v2.0,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Binary,ParsBERT v2.0,Translation(+1646),123,Fixed from Seed 42,3.00E-05,16
+Binary,ParsBERT v2.0,Translation(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Binary,RoBERTa-fa,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,RoBERTa-fa,Original,123,Fixed from Seed 42,5.00E-05,32
+Binary,RoBERTa-fa,Original,2026,Fixed from Seed 42,5.00E-05,32
+Binary,RoBERTa-fa,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,RoBERTa-fa,Balanced,123,Fixed from Seed 42,2.00E-05,8
+Binary,RoBERTa-fa,Balanced,2026,Fixed from Seed 42,2.00E-05,8
+Binary,RoBERTa-fa,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Binary,RoBERTa-fa,Translation,123,Fixed from Seed 42,3.00E-05,16
+Binary,RoBERTa-fa,Translation,2026,Fixed from Seed 42,3.00E-05,16
+Binary,RoBERTa-fa,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,RoBERTa-fa,Original(+1000),123,Fixed from Seed 42,5.00E-05,32
+Binary,RoBERTa-fa,Original(+1000),2026,Fixed from Seed 42,5.00E-05,32
+Binary,RoBERTa-fa,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Binary,RoBERTa-fa,Original(+1146),123,Fixed from Seed 42,3.00E-05,16
+Binary,RoBERTa-fa,Original(+1146),2026,Fixed from Seed 42,3.00E-05,16
+Binary,RoBERTa-fa,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,RoBERTa-fa,Original(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,RoBERTa-fa,Original(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,RoBERTa-fa,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,RoBERTa-fa,Balanced(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,RoBERTa-fa,Balanced(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,RoBERTa-fa,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Binary,RoBERTa-fa,Translation(+1646),123,Fixed from Seed 42,3.00E-05,16
+Binary,RoBERTa-fa,Translation(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Binary,DistilBERT-fa,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,DistilBERT-fa,Original,123,Fixed from Seed 42,2.00E-05,8
+Binary,DistilBERT-fa,Original,2026,Fixed from Seed 42,2.00E-05,8
+Binary,DistilBERT-fa,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,DistilBERT-fa,Balanced,123,Fixed from Seed 42,2.00E-05,8
+Binary,DistilBERT-fa,Balanced,2026,Fixed from Seed 42,2.00E-05,8
+Binary,DistilBERT-fa,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Binary,DistilBERT-fa,Translation,123,Fixed from Seed 42,5.00E-05,16
+Binary,DistilBERT-fa,Translation,2026,Fixed from Seed 42,5.00E-05,16
+Binary,DistilBERT-fa,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,DistilBERT-fa,Original(+1000),123,Fixed from Seed 42,5.00E-05,32
+Binary,DistilBERT-fa,Original(+1000),2026,Fixed from Seed 42,5.00E-05,32
+Binary,DistilBERT-fa,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Binary,DistilBERT-fa,Original(+1146),123,Fixed from Seed 42,5.00E-05,16
+Binary,DistilBERT-fa,Original(+1146),2026,Fixed from Seed 42,5.00E-05,16
+Binary,DistilBERT-fa,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,DistilBERT-fa,Original(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,DistilBERT-fa,Original(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,DistilBERT-fa,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Binary,DistilBERT-fa,Balanced(+1646),123,Fixed from Seed 42,5.00E-05,16
+Binary,DistilBERT-fa,Balanced(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Binary,DistilBERT-fa,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,DistilBERT-fa,Translation(+1646),123,Fixed from Seed 42,5.00E-05,32
+Binary,DistilBERT-fa,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,32
+Binary,AlBERT-fa,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,AlBERT-fa,Original,123,Fixed from Seed 42,5.00E-05,32
+Binary,AlBERT-fa,Original,2026,Fixed from Seed 42,5.00E-05,32
+Binary,AlBERT-fa,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,AlBERT-fa,Balanced,123,Fixed from Seed 42,5.00E-05,32
+Binary,AlBERT-fa,Balanced,2026,Fixed from Seed 42,5.00E-05,32
+Binary,AlBERT-fa,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,AlBERT-fa,Translation,123,Fixed from Seed 42,5.00E-05,32
+Binary,AlBERT-fa,Translation,2026,Fixed from Seed 42,5.00E-05,32
+Binary,AlBERT-fa,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Binary,AlBERT-fa,Original(+1000),123,Fixed from Seed 42,3.00E-05,16
+Binary,AlBERT-fa,Original(+1000),2026,Fixed from Seed 42,3.00E-05,16
+Binary,AlBERT-fa,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,AlBERT-fa,Original(+1146),123,Fixed from Seed 42,2.00E-05,8
+Binary,AlBERT-fa,Original(+1146),2026,Fixed from Seed 42,2.00E-05,8
+Binary,AlBERT-fa,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,AlBERT-fa,Original(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,AlBERT-fa,Original(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,AlBERT-fa,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,8
+Binary,AlBERT-fa,Balanced(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,AlBERT-fa,Balanced(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,AlBERT-fa,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,AlBERT-fa,Translation(+1646),123,Fixed from Seed 42,5.00E-05,32
+Binary,AlBERT-fa,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,32
+Binary,E5-Small,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Binary,E5-Small,Original,123,Fixed from Seed 42,5.00E-05,16
+Binary,E5-Small,Original,2026,Fixed from Seed 42,5.00E-05,16
+Binary,E5-Small,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,E5-Small,Balanced,123,Fixed from Seed 42,5.00E-05,32
+Binary,E5-Small,Balanced,2026,Fixed from Seed 42,5.00E-05,32
+Binary,E5-Small,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,E5-Small,Translation,123,Fixed from Seed 42,5.00E-05,32
+Binary,E5-Small,Translation,2026,Fixed from Seed 42,5.00E-05,32
+Binary,E5-Small,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",2.00E-05,32
+Binary,E5-Small,Original(+1000),123,Fixed from Seed 42,2.00E-05,32
+Binary,E5-Small,Original(+1000),2026,Fixed from Seed 42,2.00E-05,32
+Binary,E5-Small,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Binary,E5-Small,Original(+1146),123,Fixed from Seed 42,3.00E-05,16
+Binary,E5-Small,Original(+1146),2026,Fixed from Seed 42,3.00E-05,16
+Binary,E5-Small,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,32
+Binary,E5-Small,Original(+1646),123,Fixed from Seed 42,5.00E-05,32
+Binary,E5-Small,Original(+1646),2026,Fixed from Seed 42,5.00E-05,32
+Binary,E5-Small,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",3.00E-05,16
+Binary,E5-Small,Balanced(+1646),123,Fixed from Seed 42,3.00E-05,16
+Binary,E5-Small,Balanced(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Binary,E5-Small,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16, 32}  ",5.00E-05,16
+Binary,E5-Small,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Binary,E5-Small,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Binary,E5-General,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Binary,E5-General,Original,123,Fixed from Seed 42,3.00E-05,16
+Binary,E5-General,Original,2026,Fixed from Seed 42,3.00E-05,16
+Binary,E5-General,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Binary,E5-General,Balanced,123,Fixed from Seed 42,3.00E-05,16
+Binary,E5-General,Balanced,2026,Fixed from Seed 42,3.00E-05,16
+Binary,E5-General,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Binary,E5-General,Translation,123,Fixed from Seed 42,2.00E-05,8
+Binary,E5-General,Translation,2026,Fixed from Seed 42,2.00E-05,8
+Binary,E5-General,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Binary,E5-General,Original(+1000),123,Fixed from Seed 42,2.00E-05,8
+Binary,E5-General,Original(+1000),2026,Fixed from Seed 42,2.00E-05,8
+Binary,E5-General,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Binary,E5-General,Original(+1146),123,Fixed from Seed 42,3.00E-05,16
+Binary,E5-General,Original(+1146),2026,Fixed from Seed 42,3.00E-05,16
+Binary,E5-General,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Binary,E5-General,Original(+1646),123,Fixed from Seed 42,3.00E-05,16
+Binary,E5-General,Original(+1646),2026,Fixed from Seed 42,3.00E-05,16
+Binary,E5-General,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Binary,E5-General,Balanced(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,E5-General,Balanced(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,E5-General,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Binary,E5-General,Translation(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,E5-General,Translation(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,GTE,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Binary,GTE,Original,123,Fixed from Seed 42,3.00E-05,16
+Binary,GTE,Original,2026,Fixed from Seed 42,3.00E-05,16
+Binary,GTE,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Binary,GTE,Balanced,123,Fixed from Seed 42,5.00E-05,16
+Binary,GTE,Balanced,2026,Fixed from Seed 42,5.00E-05,16
+Binary,GTE,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Binary,GTE,Translation,123,Fixed from Seed 42,3.00E-05,16
+Binary,GTE,Translation,2026,Fixed from Seed 42,3.00E-05,16
+Binary,GTE,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Binary,GTE,Original(+1000),123,Fixed from Seed 42,3.00E-05,16
+Binary,GTE,Original(+1000),2026,Fixed from Seed 42,3.00E-05,16
+Binary,GTE,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Binary,GTE,Original(+1146),123,Fixed from Seed 42,2.00E-05,8
+Binary,GTE,Original(+1146),2026,Fixed from Seed 42,2.00E-05,8
+Binary,GTE,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Binary,GTE,Original(+1646),123,Fixed from Seed 42,5.00E-05,16
+Binary,GTE,Original(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Binary,GTE,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Binary,GTE,Balanced(+1646),123,Fixed from Seed 42,2.00E-05,8
+Binary,GTE,Balanced(+1646),2026,Fixed from Seed 42,2.00E-05,8
+Binary,GTE,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Binary,GTE,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Binary,GTE,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Original,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Binary,GTE-Reranker,Original,123,Fixed from Seed 42,2.00E-05,8
+Binary,GTE-Reranker,Original,2026,Fixed from Seed 42,2.00E-05,8
+Binary,GTE-Reranker,Balanced,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",3.00E-05,16
+Binary,GTE-Reranker,Balanced,123,Fixed from Seed 42,3.00E-05,16
+Binary,GTE-Reranker,Balanced,2026,Fixed from Seed 42,3.00E-05,16
+Binary,GTE-Reranker,Translation,42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",2.00E-05,8
+Binary,GTE-Reranker,Translation,123,Fixed from Seed 42,2.00E-05,8
+Binary,GTE-Reranker,Translation,2026,Fixed from Seed 42,2.00E-05,8
+Binary,GTE-Reranker,Original(+1000),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Binary,GTE-Reranker,Original(+1000),123,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Original(+1000),2026,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Original(+1146),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Binary,GTE-Reranker,Original(+1146),123,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Original(+1146),2026,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Original(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Binary,GTE-Reranker,Original(+1646),123,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Original(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Balanced(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Binary,GTE-Reranker,Balanced(+1646),123,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Balanced(+1646),2026,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Translation(+1646),42,"{2e-5, 3e-5, 5e-5} * {8, 16}  ",5.00E-05,16
+Binary,GTE-Reranker,Translation(+1646),123,Fixed from Seed 42,5.00E-05,16
+Binary,GTE-Reranker,Translation(+1646),2026,Fixed from Seed 42,5.00E-05,16
